@@ -1,0 +1,9 @@
+[package]
+name = "player"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+vectors = { path =  "../../vectors" }
+map = { version = "0.1.0", path = "../map" }
+sdl2 = "0.37.0"

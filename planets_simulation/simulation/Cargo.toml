@@ -1,0 +1,9 @@
+[package]
+name = "simulation"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+planets = { path = "../planets" }
+forces = { path = "../forces" }
+sdl2 = "0.37.0"

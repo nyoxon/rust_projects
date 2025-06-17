@@ -1,0 +1,7 @@
+[workspace]
+
+members = [
+	"one_pendulum",
+	"double_pendulum",
+	"pendulum", "double_pendulum",
+]

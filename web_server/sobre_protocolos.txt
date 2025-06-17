@@ -1,0 +1,35 @@
+protocolos são regras para transferir e receber informações
+atraves de web servers
+
+HTTP -> Hypertext Transfer Protocol (protocolo de aplicação)
+(especifica como a informação desse ser transferida
+via TCP)
+TCP -> Transmission Control Protocol (protocolo de transporte)
+(low-level, descreve como a informação
+vai de um servidor para outro mas nao
+especifica a informação passada)
+
+ambos são protocolos request-response, que indica
+que o cliente primeiro precisa fazer um request e depois
+receber uma response.
+
+HTTP é um protocolo text-based e requests possuem
+a seguinte forma:
+
+Method Request-URI HTTP-Version CRLF
+headers CRLF ()
+message-body
+
+Request -> o que o cliente ta pedindo
+uri -> /
+version -> versão do HTTP
+crlf -> carriage return and line feed.
+
+respostas tem a forma:
+
+HTTP-Version Status-Code Reason-Phrase CRLF
+headers CRLF
+message-body
+
+status-code -> resume o resultado do pedido
+reason-phrase -> frase que explica o status code

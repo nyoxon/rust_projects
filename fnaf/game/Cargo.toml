@@ -1,0 +1,11 @@
+[package]
+name = "game"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+animatronics = { version = "0.1.0", path = "../animatronics" }
+vectors = { path = "../../vectors" }
+sdl2 = { version = "0.37.0", features = ["ttf"] }
+map = { version = "0.1.0", path = "../map" }
+player = { version = "0.1.0", path = "../player" }

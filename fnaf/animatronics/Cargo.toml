@@ -1,0 +1,10 @@
+[package]
+name = "animatronics"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+vectors = { path = "../../vectors" }
+sdl2 = { version = "0.37.0", features = ["ttf"] }
+map = { version = "0.1.0", path = "../map" }
+rand = "0.8.5"
